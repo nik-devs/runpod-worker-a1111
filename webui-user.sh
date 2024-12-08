@@ -4,7 +4,7 @@
 #########################################################
 
 # Install directory without trailing slash
-install_dir="/workspace"
+install_dir="/"
 
 # Name of the subdirectory
 #clone_dir="stable-diffusion-webui"
@@ -19,7 +19,7 @@ export COMMANDLINE_ARGS="--port 3000 --listen --api --xformers"
 #export GIT="git"
 
 # python3 venv without trailing slash (defaults to ${install_dir}/${clone_dir}/venv)
-venv_dir="/workspace/venv"
+#venv_dir="/workspace/venv"
 
 # script to launch to start the app
 #export LAUNCH_SCRIPT="launch.py"
