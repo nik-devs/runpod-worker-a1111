@@ -207,6 +207,9 @@ def handler(job):
     if payload.get('sampler_name') == 'Euler a' and 'scheduler' in payload:
         del payload['scheduler']
 
+    if 'mask' in payload and (payload['mask'] == '' or payload['mask'] == None):
+        del payload['mask']
+
     try:
         logger.info(f'Sending {method} request to: /{endpoint}', job['id'])
 

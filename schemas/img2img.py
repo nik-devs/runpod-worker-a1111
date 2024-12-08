@@ -252,11 +252,11 @@ IMG2IMG_SCHEMA = {
         'required': False,
         'default': 1
     },
-    'latent_mask': {
-        'type': str,
-        'required': False,
-        'default': None
-    },
+    # 'latent_mask': {
+    #     'type': str,
+    #     'required': False,
+    #     'default': None
+    # },
     'sampler_index': {
         'type': str,
         'required': False,
