@@ -207,7 +207,7 @@ IMG2IMG_SCHEMA = {
         'required': False,
         'default': 0
     },
-    'mask_image': {
+    'mask': {
         'type': str,
         'required': False,
         'default': ''
